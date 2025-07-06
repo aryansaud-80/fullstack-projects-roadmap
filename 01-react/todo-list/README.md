@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+# ✅ Todo List App – React (Beginner Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a beginner-friendly **Todo List App** built using **React + Vite**. It's the first step in my roadmap to rebuild my MERN skills from scratch with real, hands-on projects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Add new todos
+- Edit and update existing todos
+- Mark as completed/uncompleted
+- Delete todos
+- Filter ( All , Active, Completed)
+- Clear Completed Todo on one Go
+- Persist data using localStorage
+- Clean and modular React component structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎯 Purpose of This Project
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- To **revisit React basics** (state, props, component logic)
+- To practice building a real project from scratch
+- To prepare for bigger, full-stack MERN applications later
+- To make my learning process visible (on GitHub and LinkedIn)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🛠️ How to Run
+
+```bash
+# Clone the full repo
+git clone https://github.com/aryansaud-80/fullstack-projects.git
+
+# Navigate into the TodoList project
+cd fullstack-projects/TodoList
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 Concepts Practiced
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- React fundamentals (useState, useEffect)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Component-based design
+
+- Lifting state and passing props
+
+- Conditional rendering
+
+- Vite project setup and fast dev experience
+
+- Dynamic id using uuid library
+
+- Filtering (All, Active , Completed)
+
+## 📄 License
+
+MIT — free to use, learn from, or improve.
+
+## 🔗 Let's Connect
+
+- 🧑‍💻 GitHub: [@aryansaud-80](https://github.com/aryansaud-80)
+- 💼 LinkedIn: [Aryan Saud](https://www.linkedin.com/in/aryan-saud-81a618293)
